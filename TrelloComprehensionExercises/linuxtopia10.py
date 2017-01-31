@@ -1,0 +1,1 @@
+print(("\n"+"-"*25+"\n") + ("\n"+"-"*25+"\n").join(["| " + "| ".join([str(a+b).rjust(2,'0') for a in range(1,7)])+"|" for b in range(1,7)]) + ("\n"+"-"*25))
